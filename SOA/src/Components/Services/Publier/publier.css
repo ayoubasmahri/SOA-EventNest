@@ -1,0 +1,23 @@
+.userinput {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between grid items */
+}
+.fieldss {
+  width: 50em;
+  height: 3em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+.Publish {
+  width: 10em;
+  height: 3em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #634caf;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}

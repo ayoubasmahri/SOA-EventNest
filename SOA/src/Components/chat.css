@@ -1,0 +1,32 @@
+/* src/components/Chat.css */
+.chat-container {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.message {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.message.own {
+  background-color: #f0f0f0;
+}
+
+input[type="text"] {
+  width: calc(100% - 60px);
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}

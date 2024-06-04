@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  flex: 1; /* Make the image take up 50% of the card width */
+  height: 20px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1; /* Make the content take up the other 50% of the card width */
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  margin: 5px 0;
+}
+
+.card-content button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-content button:hover {
+  background-color: #0056b3;
+}
